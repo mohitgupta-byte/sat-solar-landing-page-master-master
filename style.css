@@ -24,7 +24,7 @@ nav {
 }
 
 nav .links a:hover{    
-  box-shadow:4px 4px 6px 4px gray;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 @media (max-width:800px){.links a {box-shadow: none !important;}}
