@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\My Web Sites\\eco mmerce\\www.exideindustries.com\\static-files\\css"
+		},
+		{
+			"path": "..\\..\\..\\..\\My Web Sites\\eco mmerce\\www.exideindustries.com\\static-files\\fonts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sat solar landing page"
+	}
+}
