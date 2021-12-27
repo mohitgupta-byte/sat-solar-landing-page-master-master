@@ -22,6 +22,13 @@ nav {
 	background-color: white;
   border-bottom: 2px solid red;
 }
+
+nav .links a:hover{    
+  box-shadow:4px 4px 6px 4px gray;
+}
+
+@media (max-width:800px){.links a {box-shadow: none !important;}}
+
 /* nav .logo {
 	float: left;
 	width: 40%;
@@ -89,6 +96,7 @@ nav .icon-burger .line {
     left:5px;
     top:3px;
     position: relative;	
+
 	}
 	nav .links {
 		float: none;
@@ -106,6 +114,7 @@ nav .icon-burger .line {
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
+    
 	}
 	nav .links a {
 		font-size: 20px;
@@ -136,6 +145,8 @@ nav .icon-burger .line {
 	text-decoration: none;
 	font-size: 12px;
 }
+
+
     /* hero section start */
     .carousel{
       z-index: 0
@@ -346,9 +357,8 @@ nav .icon-burger .line {
     margin: auto 0;
   }
   
-  .submit-btn {
-    float: left;
-  }
+  
+  
   .reset-btn {
     float: right;
   }
@@ -485,8 +495,10 @@ nav .icon-burger .line {
     position:relative;
     left:8px;
     width:200px;
+    text-align: center;
     }
     
+
     /* contact us section ends  */
 
     /* footer start */
